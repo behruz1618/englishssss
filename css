@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #2727e4, #aba4a4);
+  color: rgb(128, 108, 108);
+}
+
+.header {
+  padding: 20px;                                                                                                                                                                                                                                                                        
+  text-align: center;
+  background-color: #07f848;
+}
+
+.flag {
+  width: 60px;
+  margin: 0 10px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.gallery img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #4e0bca;
+}
+
+.form-section {
+  padding: 30px;
+  background-color: #ddeb19;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+input, select, button {
+  display: block;
+  width: 90%;
+  padding: 12px;
+  margin: 10px auto;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+button {
+  background-color: #0077cc;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+.videos {
+  padding: 20px;
+  background-color: #11d549;
+  text-align: center;
+}
+
+.video-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+video {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(14, 153, 234);
+}
+
+form1 {
+color: #3310e5;
+
+}
+
